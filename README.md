@@ -2,6 +2,10 @@
 ## Website for VK's Infinity Salon.
 This is a simple project made with HTML/CSS Python(Django) and git to understand these mentioned technologies.
 
+# requirement and versions
+-Python 3
+-Django 4.0.4
+
 ## How to run this project. 
 ### Steps:
 1. Clone/[Download](https://github.com/IamPruthvi/Infinity_Salon/archive/refs/heads/master.zip) this repository
