@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% block title %}Contact{% endblock %}
+{% block extra_head %}
+<style>
+h2, h3, h4, h5 {
+    color: white;
+}
+.row {
+    margin: 10px;
+}
+.column{
+    width:100%;
+    max-width:300px;
+    height:auto;
+    margin: 50px;
+}
+.info {
+    background-color:black;
+    padding: 15px;
+    border-radius: 10px;
+
+}
+
+.centerTable { margin: 0px auto; }
+
+</style>
+{% endblock extra_head %}
+
+{% load static %}
+{% block body %}
+<div class="container">
+<!--    <div class="row">-->
+<!--        <div class="column">-->
+<!--            <div class="text">-->
+<!--                <h1>Viraj Kadam</h1>-->
+<!--                <div class="info">-->
+<!--                    <h2>Professional Hairstylist </h2>-->
+<!--                    <h3>Over 5000 Haircuts</h3>-->
+<!--                    <h4>If you want best haircut, come at VK's infinity</h4>-->
+<!--                </div>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--        <div class="column">-->
+<!--          <img src="static/viraj.png" style="border-radius:25px;">-->
+<!--        </div>-->
+<!--    </div>-->
+
+<!--    <div class="row">-->
+<!--        <div class="column">-->
+<!--          <img src="static/hashim.png" style="border-radius:25px;">-->
+<!--        </div>-->
+<!--        <div class="column" style="margin-left:340px">-->
+<!--            <h1>Hashim Ansari</h1>-->
+<!--            <div class="info">-->
+<!--                <h2>Professional Hairstylist </h2>-->
+<!--                <h3>Over 2000 Haircuts</h3>-->
+<!--                <h4>Good hair reflects your story and your spirit.</h4>-->
+<!--            </div>-->
+<!--        </div>-->
+<!--    </div>-->
+    <table class="centerTable">
+        <tr>
+            <td>
+                <h1>Viraj Kadam</h1>
+                <div class="info">
+                    <h3>Professional Hairstylist </h3>
+                    <h4>Over 5000 Haircuts</h4>
+                    <h5>If you want best haircut, <br>come at VK's infinity</h5>
+                </div>
+            </td>
+            <td>
+                <img src="static/viraj.png" style="border-radius:25px; width:250px;">
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <img src="static/hashim.png" style="border-radius:25px; width:250px;">
+            </td>
+            <td>
+                <h1>Hashim Ansari</h1>
+                <div class="info">
+                    <h3>Professional Hairstylist </h3>
+                    <h4>Over 2000 Haircuts</h4>
+                    <h5>Good hair reflects your story and your spirit.</h5>
+                </div>
+            </td>
+        </tr>
+    </table>
+</div>
+{% endblock body %}
