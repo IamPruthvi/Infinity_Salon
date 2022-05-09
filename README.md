@@ -3,8 +3,8 @@
 This is a simple project made with HTML/CSS Python(Django) and git to understand these mentioned technologies.
 
 # requirement and versions
--Python 3
--Django 4.0.4
+- Python 3
+- Django 4.0.4
 
 ## How to run this project. 
 ### Steps:
